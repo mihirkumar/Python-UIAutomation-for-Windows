@@ -4191,6 +4191,7 @@ def LogControl(control, depth = 0, showAllName = True, showMore = False):
     indent = ' ' * depth * 4
     Logger.Write('{0}ControlType: '.format(indent))
     Logger.Write(control.ControlTypeName, ConsoleColor.DarkGreen)
+    Logger.Write('    yolo: ')
     Logger.Write('    ClassName: ')
     Logger.Write(control.ClassName, ConsoleColor.DarkGreen)
     Logger.Write('    AutomationId: ')
